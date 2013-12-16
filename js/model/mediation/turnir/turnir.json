@@ -1,0 +1,7 @@
+{
+    "table": "Turnir",
+    "fields": {
+        "ID": { "type": "ID" },
+        "name": {"type": "TEXT"}
+    }
+}

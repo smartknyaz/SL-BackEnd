@@ -1,0 +1,12 @@
+{
+    "table": "Command",
+    "fields": {
+        "ID": { "type": "ID" },
+        "name": {"type": "TEXT"},
+        "sport": {"type": "REFERENCE",
+            "dataField": "sportId",
+            "referenceFields": ["ID", "name"],
+            "referenceEntityName": "Sport"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "parent": "ObjectLink",
+    "fields": {
+        "discriminator": {
+            "defaultValue": "COMMANDINTURNIR"
+        },
+        "childId": {
+            "referenceEntityName": "Command"
+        },
+        "parentId": {
+            "referenceEntityName": "Turnir"
+        }
+    }
+}

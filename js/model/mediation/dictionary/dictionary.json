@@ -1,0 +1,11 @@
+{
+    "table": "dictionary",
+    "fields": {
+        "ID": { "type": "ID" },
+        "sortOrder": {"type": "INTEGER" },
+        "name": {"type": "TEXT" },
+        "externalId": {},
+        "description": {},
+        "discriminator": {}
+    }
+}

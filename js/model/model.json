@@ -1,0 +1,9 @@
+{
+    "Dictionary": "dictionary/dictionary",
+    "Language": "dictionary/language",
+    "Sport": "dictionary/sport",
+    "Command": "command/command",
+    "Turnir": "turnir/turnir",
+    "ObjectLink": "object_link/object_link",
+    "CommandInTurnir": "object_link/command_in_turnir"
+}

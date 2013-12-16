@@ -1,0 +1,20 @@
+{
+    "table": "object_link",
+    "fields": {
+        "ID": { "type": "ID" },
+        "discriminator": {
+            "type": "TEXT",
+            "defaultValue": "NOT_SPECIFIED"
+        },
+        "childId": {"type": "REFERENCE",
+            "dataField": "childId",
+            "referenceFields": ["ID", "name"],
+            "referenceEntityName": "ObjectLinkEntityChildNotSpecified"
+        },
+        "parentId": {"type": "REFERENCE",
+            "dataField": "parentId",
+            "referenceFields": ["ID", "name"],
+            "referenceEntityName": "ObjectLinkEntityParentNotSpecified"
+        }
+    }
+}

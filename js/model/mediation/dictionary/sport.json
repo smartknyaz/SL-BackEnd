@@ -1,0 +1,6 @@
+{
+    "parent": "Dictionary",
+    "fields": {
+        "discriminator": {"defaultValue": "SPORT"}
+    }
+}
