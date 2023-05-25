@@ -1,6 +1,6 @@
 exports.config = {
     dbConnection: {
-        host: 'localhost',
+        host: 'localhostkvas',
         user: 'root',
         password: 'vertolet',
         database: "fhb"
